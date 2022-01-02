@@ -9,3 +9,21 @@ Content-Type: application/json
 ###
 
 GET http://localhost:8000/subscriber/
+
+###
+
+GET http://localhost:8000/subscriber/61c9e82db408942a86392336
+
+###
+
+DELETE http://localhost:8000/subscriber/61c9e82db408942a86392336
+
+###
+
+PATCH http://localhost:8000/subscriber/61c9e75cb408942a86392330
+Content-Type: application/json
+
+{
+    "name" : "May Batch 2021",
+    "channel" : "codingninjas.com"
+}
